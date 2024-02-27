@@ -1,0 +1,42 @@
+Section A: Definitions
+
+1.1.1. Database:
+   - A database is a structured collection of data that is organized and stored in a computer system. It is designed to efficiently manage and retrieve data.
+
+1.1.2. Table:
+   - A table is a fundamental component of a relational database. It consists of rows and columns where each row represents a record and each column represents a field or attribute.
+
+1.1.3. Record:
+   - A record, also known as a row, is a collection of related data fields within a table. It represents a single instance of an entity being stored in the database.
+
+1.1.4. Field:
+   - A field, also known as a column, is a specific piece of data within a record. It represents a single attribute of the entity being stored and defines the type of data that can be stored in that column.
+
+1.1.5. Primary Key:
+   - A primary key is a unique identifier for each record in a table. It ensures that each record can be uniquely identified and helps enforce data integrity within the database. An example could be a "student ID" in a table of student records.
+
+1.1.6. SQL:
+   - SQL (Structured Query Language) is a programming language used for managing and manipulating relational databases. It is used to perform tasks such as querying, updating, and deleting data within a database.
+
+1.1.7. Query:
+   - A query is a request for information from a database. It is typically written in SQL and allows users to retrieve specific data that meets certain criteria.
+
+1.1.8. Index:
+   - An index is a data structure that improves the speed of data retrieval operations on a database table. It is created on one or more columns of a table and allows for faster lookup of data based on those columns.
+
+1.1.9. Normalization:
+   - Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves breaking down large tables into smaller ones and defining relationships between them.
+
+1.1.10. Database Management System (DBMS):
+   - A Database Management System (DBMS) is a software application that facilitates the creation, management, and manipulation of databases. It provides tools and interfaces for users to interact with the database and ensures data integrity, security, and efficiency.
+
+Section B: Discussions
+
+1.1.1. Describe the purpose of a primary key in a database table and provide an example.
+   - The purpose of a primary key is to uniquely identify each record in a table. It ensures that no two records have the same identifier, thereby enforcing data integrity and providing a means for efficient data retrieval and manipulation. For example, in a table of employee records, the "employee ID" column can serve as the primary key.
+
+1.1.2. Explain the difference between a database management system (DBMS) and a database.
+   - A database is a structured collection of data stored in a computer system, whereas a Database Management System (DBMS) is software that allows users to interact with and manage databases. In other words, a database is the actual repository of data, while a DBMS provides the tools and functionalities for creating, querying, updating, and administering the database.
+
+1.1.3. Discuss in short, the importance of normalization in database design and provide an example of how it can improve data integrity.
+   - Normalization is important in database design because it helps reduce redundancy and dependency, which in turn improves data integrity and efficiency. By organizing data into smaller, related tables and defining relationships between them, normalization minimizes the risk of anomalies such as insertion, update, and deletion anomalies. For example, consider a database of customer orders where customer information is stored along with each order. By normalizing the database and creating separate tables for customers and orders, redundancy is reduced, and data integrity is improved.
