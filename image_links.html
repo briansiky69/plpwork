@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        section#home img {
+            width: 100%;
+            display: block;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website. Check out our technology-related image below!</p>
+        <a href="https://www.example.com/technology"><img src="images/technology1.png" alt="Technology"></a>
+
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://example.com/nature1" target="_blank">
+                <img src="images/nature4.png" alt="Nature Image 1">
+            </a>
+            <a href="https://example.com/nature2" target="_blank">
+                <img src="images/nature2.png" alt="Nature Image 2">
+            </a>
+            <a href="https://example.com/nature3" target="_blank">
+                <img src="images/nature3.png" alt="Nature Image 3">
+            <a href="https://example.com/nature3" target="_blank">
+                <img src="images/nature4.png" alt="Nature Image 3">
+            </a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="https://example.com/food1" target="_blank">
+                    <img src="images/food1.png" alt="Food Image 1"> <br><h3>Mixed meal</h3>                </a>
+            </li>
+            <li>
+                <a href="https://example.com/food2" target="_blank">
+                    <img src="images/food2.png" alt="Food Image 2"> <br><h3> Fried Chicken</h3>
+                </a>
+            </li>
+            <li>
+                <a href="https://example.com/food3" target="_blank">
+                    <img src="images/food3.png" alt="Food Image 3"> <br><h3>Drinks</h3>
+                </a>
+            </li>
+        </ul>
+    </section>
+   
+</body>
+</html>
